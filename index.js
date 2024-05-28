@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 // POST endpoint /api/alert/
 
-app.get('/api/alert/', (req, res) => {
+app.get('/', (req, res) => {
     res.json({ message: 'Welcome to the server' });
 });
 
